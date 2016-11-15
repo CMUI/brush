@@ -1,6 +1,36 @@
 # Brush
 
-Utility extensions for Stylus.
+> Lightweight utility library for Stylus.
+
+> Inspired by [nib](https://github.com/tj/nib).
+
+Stylus 是一款 CSS 预处理器，与 Sass 和 Less 相比，Stylus 更像是一门编程语言，功能更为强大和灵活。同时，Stylus 完成基于 JavaScript 开发，对 Node 工具链极为友好。
+
+而 Brush 是专为 Stylus 编写的工具库，充分利用 Stylus 的变量、Mixin、插值等特性，为现代 CSS 开发提供更舒适的编程体验。
+
+## 安装
+
+通过 npm 安装：
+
+```sh
+$ npm install cmui-brush
+```
+
+## 使用
+
+0. 在你的样式文件中导入 Brush：
+	
+	```stylus
+	@import './node_modules/cmui-brush/brush'
+	```
+
+0. 随后即可使用 Brush 提供的各项 API。
+
+## 谁在用？
+
+移动 UI 框架 [CMUI](https://github.com/CMUI/CMUI) v2 采用 Brush 作为全局的样式工具库，因此所有 CMUI v2 的用户都在使用它：
+
+* [百姓网 - 手机版](http://m.baixing.com/)
 
 ***
 
