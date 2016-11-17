@@ -1,6 +1,6 @@
 {
   "name": "cmui-brush",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/CMUI/brush",
   "author": "cssmagic <cssmagic.cn@gmail.com>",
   "description": "Lightweight utility library for Stylus.",

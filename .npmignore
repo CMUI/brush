@@ -3,3 +3,5 @@
 !package.json
 !README.md
 !src/*.styl
+!*.styl
+!index.js
