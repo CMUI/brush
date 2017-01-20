@@ -1,6 +1,10 @@
 /* Brush | MIT License | https://github.com/CMUI/brush */
 /* Inspired by [nib](https://github.com/tj/nib). */
 
+// why use `brush.styl` as entry filename, not `index.styl`?
+// when use this package as a plugin for Stylus,
+// the name `brush.styl` can help gulp-stylus find the proper file.
+
 @import './src/lib'
 @import './src/selector'
 @import './src/shorthand'
